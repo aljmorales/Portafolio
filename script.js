@@ -100,3 +100,7 @@ document.getElementById("videojuego__project").addEventListener("click", functio
 document.getElementById("collage__project").addEventListener("click", function() {
     window.open("projects/proyecto/index.html", "_blank");
 });
+
+document.getElementById("facturacion__project").addEventListener("click", function() {
+    window.open("https://sistema-facturacion-rho.vercel.app/", "_blank");
+});

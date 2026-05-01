@@ -872,6 +872,13 @@ margin-top: 20px;
     font-family: 'Coolvetica', sans-serif;
 }
 
+#facturacion__project {
+    grid-column: span 2; /* ocupa todo el ancho */
+    font-size: 20px;     /* más grande que los demás */
+    text-shadow: 2px 2px 4px black;
+}
+
+
 /*------------------PORTFOLIO MOBILE-------------------------*/
 @media only screen and (max-width: 700px)  {
     .portfolio__section{
