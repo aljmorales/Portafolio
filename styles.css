@@ -775,6 +775,82 @@ margin-top: 20px;
 }
 
 
+    /* Barra base */
+    .skill-bar {
+    width: 90%; 
+    max-width: 300px; 
+    min-height: 20px;
+    margin: 6px;
+    margin-left: -20px;
+    padding: 2px;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    }
+    .skill-bar div {
+    padding: 7px;
+    color: #000;
+    width: 100%; 
+    box-sizing: border-box;
+    text-align: center; 
+    }
+
+/* React */
+.skill-react { border: 4px solid #61DBFB; }
+.skill-react div { background-color: #61DBFB; width: 90%; }
+.react-circle { background: conic-gradient(#61DBFB 0% 90%, transparent 90% 100%); }
+
+/* Angular */
+.skill-angular { border: 4px solid #DD0031; }
+.skill-angular div { background-color: #DD0031; width: 75%; }
+.angular-circle { background: conic-gradient(#DD0031 0% 75%, transparent 75% 100%); }
+
+/* Node.js */
+.skill-node { border: 4px solid #8CC84B; }
+.skill-node div { background-color: #8CC84B; width: 80%; }
+.node-circle { background: conic-gradient(#8CC84B 0% 80%, transparent 80% 100%); }
+
+/* Spring Boot */
+.skill-spring { border: 4px solid #6DB33F; }
+.skill-spring div { background-color: #6DB33F; width: 75%; }
+.spring-circle { background: conic-gradient(#6DB33F 0% 75%, transparent 75% 100%); }
+
+/* Python */
+.skill-python { border: 4px solid #3776AB; }
+.skill-python div { background-color: #3776AB; width: 70%; }
+.python-circle { background: conic-gradient(#3776AB 0% 70%, transparent 70% 100%); }
+
+/* Database */
+.skill-db { border: 4px solid #F8DE7E; }
+.skill-db div { background-color: #F8DE7E; width: 90%; }
+.db-circle { background: conic-gradient(#F8DE7E 0% 90%, transparent 90% 100%); }
+
+    /* Círculo base */
+    .circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    }
+    .circle-inner {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .percentage {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; 
+    }
+
+
 /*------------------SKILLS MOBILE-------------------------*/
 @media only screen and (max-width: 900px)  {
     .skills__section{
