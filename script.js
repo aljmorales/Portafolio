@@ -104,3 +104,7 @@ document.getElementById("collage__project").addEventListener("click", function()
 document.getElementById("facturacion__project").addEventListener("click", function() {
     window.open("https://sistema-facturacion-rho.vercel.app/", "_blank");
 });
+
+document.getElementById("tickets__project").addEventListener("click", function() {
+  window.open("https://sistema-tickets-frontend-nine.vercel.app/", "_blank");
+});
